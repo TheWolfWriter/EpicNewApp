@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fancyShmancyBlue">#0040FF</color>
+    <color name="wickedGreen">#00FF00</color>
+    <color name="mellowYellow">#F4FA48</color>
+    <color name="bloodRed">#DF0101</color>
+    <color name="poppingPurple">#CC2EFA</color>
+    <color name="nothingRhymesWithThisOrange">#FF8000</color>
+    
+</resources>

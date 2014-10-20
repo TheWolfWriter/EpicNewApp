@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Epic New App</string>
+    <string name="appLabel">Click the button and watch as epicness happens!</string>
+    <string name="fancyShmancyBlueText">Fancy Shmancy Blue</string>
+    <string name="bloodRedText">Blood Red</string>
+    <string name="mellowYellowText">Mellow Yellow</string>
+    <string name="wickedGreenText">Wicked Green</string>
+    <string name="nothingRhymesWithThisOrangeText">Nothing Rhymes With This Orange</string>
+    <string name="poppingPurpleText">Popping Purple</string>
+
+</resources>
