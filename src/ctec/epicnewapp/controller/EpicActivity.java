@@ -1,6 +1,7 @@
 package ctec.epicnewapp.controller;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,6 +11,7 @@ import android.widget.RelativeLayout;
 
 public class EpicActivity extends Activity
 {
+	public Button firstScreenButton;
 	public Button appFancyShmancyBlueButton;
 	public Button appMellowYellowButton;
 	public Button appBloodRedButton;
@@ -36,6 +38,16 @@ public class EpicActivity extends Activity
 	
 	private void setupListeners()
 	{
+		firstScreenButton.setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View currentView)
+			{
+				Intent myIntent = new Intent(currentView.getContext(), SecondEpicActivity.class);
+				startActivityForResult(myIntent, 0);
+			}
+		});
+		
 		appFancyShmancyBlueButton.setOnClickListener(new View.OnClickListener()
 		{
 			@Override

@@ -1103,6 +1103,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int fancyShmancyBlueButton=0x7f05003d;
+        public static final int firstScreenButton=0x7f050043;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1120,6 +1121,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
+        public static final int screenTwoIntroText=0x7f050042;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1130,6 +1132,7 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
+        public static final int secondEpicButton=0x7f050044;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
@@ -1137,7 +1140,6 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int textView1=0x7f050042;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1196,7 +1198,8 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_epic=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int activity_second_epic=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1243,9 +1246,14 @@ containing a value of this type.
         public static final int app_name=0x7f0a000d;
         public static final int bloodRedText=0x7f0a0010;
         public static final int fancyShmancyBlueText=0x7f0a000f;
+        public static final int hello_world=0x7f0a0017;
         public static final int mellowYellowText=0x7f0a0011;
         public static final int nothingRhymesWithThisOrangeText=0x7f0a0013;
         public static final int poppingPurpleText=0x7f0a0014;
+        public static final int screenChangingButtonText=0x7f0a0015;
+        public static final int screenTwoIntroTextText=0x7f0a0019;
+        public static final int secondEpicButtonText=0x7f0a0018;
+        public static final int title_activity_second_epic=0x7f0a0016;
         public static final int wickedGreenText=0x7f0a0012;
     }
     public static final class style {

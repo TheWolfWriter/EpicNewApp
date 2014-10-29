@@ -2,12 +2,17 @@
 <resources>
 
     <string name="app_name">Epic New App</string>
-    <string name="appLabel">Click the button and watch as epicness happens!</string>
+    <string name="appLabel">Click the buttons and watch as epicness happens!</string>
     <string name="fancyShmancyBlueText">Fancy Shmancy Blue</string>
     <string name="bloodRedText">Blood Red</string>
     <string name="mellowYellowText">Mellow Yellow</string>
     <string name="wickedGreenText">Wicked Green</string>
     <string name="nothingRhymesWithThisOrangeText">Nothing Rhymes With This Orange</string>
     <string name="poppingPurpleText">Popping Purple</string>
+    <string name="screenChangingButtonText">Click here to go to Screen 2!</string>
+    <string name="title_activity_second_epic">SecondEpicActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="secondEpicButtonText">Click here to go back to screen 1!</string>
+    <string name="screenTwoIntroTextText">Welcome to Screen 2!</string>
 
 </resources>
