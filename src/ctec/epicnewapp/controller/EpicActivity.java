@@ -29,9 +29,9 @@ public class EpicActivity extends Activity
 		appFancyShmancyBlueButton = (Button) findViewById(R.id.fancyShmancyBlueButton);
 		appMellowYellowButton = (Button) findViewById(R.id.mellowYellowButton);
 		appBloodRedButton = (Button) findViewById(R.id.bloodRedButton);
-		appWickedGreenButton = (Button) findViewById(R.id.wickedGreenButton);
-		appNothingRhymesWithThisOrangeButton = (Button) findViewById(R.id.nothingRhymesWithThisOrangeButton);
-		appPoppingPurpleButton = (Button) findViewById(R.id.poppingPurpleButton);
+		appWickedGreenButton = (Button) findViewById(R.id.wickedGreenButton2);
+		appNothingRhymesWithThisOrangeButton = (Button) findViewById(R.id.nothingRhymesWithThisOrangeButton2);
+		appPoppingPurpleButton = (Button) findViewById(R.id.poppingPurpleButton2);
 		
 		setupListeners();
 	}

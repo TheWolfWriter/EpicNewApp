@@ -4,44 +4,6 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <Button
-        android:id="@+id/poppingPurpleButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/fancyShmancyBlueButton"
-        android:layout_below="@+id/fancyShmancyBlueButton"
-        android:layout_marginTop="37dp"
-        android:text="@string/poppingPurpleText" />
-
-    <Button
-        android:id="@+id/mellowYellowButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/wickedGreenButton"
-        android:layout_alignTop="@+id/poppingPurpleButton"
-        android:text="@string/mellowYellowText" />
-
-    <Button
-        android:id="@+id/bloodRedButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/poppingPurpleButton"
-        android:layout_below="@+id/poppingPurpleButton"
-        android:layout_marginTop="44dp"
-        android:text="@string/bloodRedText" />
-
-    <Button
-        android:id="@+id/nothingRhymesWithThisOrangeButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/mellowYellowButton"
-        android:layout_alignTop="@+id/bloodRedButton"
-        android:text="@string/nothingRhymesWithThisOrangeText" />
-
     <TextView
         android:id="@+id/screenTwoIntroText"
         android:layout_width="wrap_content"
@@ -52,34 +14,46 @@
         android:text="@string/appLabel" />
 
     <Button
-        android:id="@+id/wickedGreenButton"
+        android:id="@+id/fancyShmancyBlueButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/poppingPurpleButton"
-        android:layout_marginLeft="17dp"
-        android:layout_toRightOf="@+id/fancyShmancyBlueButton"
-        android:text="@string/wickedGreenText" />
+        android:layout_alignLeft="@+id/firstScreenButton"
+        android:layout_below="@+id/screenTwoIntroText"
+        android:layout_marginTop="39dp"
+        android:text="@string/fancyShmancyBlueText"
+        android:textColor="@id/fancyShmancyBlueButton" />
+
+    <Button
+        android:id="@+id/mellowYellowButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bloodRedButton"
+        android:layout_alignBottom="@+id/bloodRedButton"
+        android:layout_alignRight="@+id/screenTwoIntroText"
+        android:layout_marginRight="19dp"
+        android:text="@string/mellowYellowText" />
+
+    <Button
+        android:id="@+id/bloodRedButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/screenTwoIntroText"
+        android:layout_below="@+id/fancyShmancyBlueButton"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/bloodRedText" />
 
     <Button
         android:id="@+id/firstScreenButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/mellowYellowButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="80dp"
         android:text="@string/screenChangingButtonText" />
-
-    <Button
-        android:id="@+id/fancyShmancyBlueButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/screenTwoIntroText"
-        android:layout_below="@+id/screenTwoIntroText"
-        android:layout_marginTop="30dp"
-        android:text="@string/fancyShmancyBlueText"
-        android:textColor="@id/fancyShmancyBlueButton" />
 
 </RelativeLayout>

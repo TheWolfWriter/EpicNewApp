@@ -1103,7 +1103,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int fancyShmancyBlueButton=0x7f05003d;
-        public static final int firstScreenButton=0x7f050043;
+        public static final int firstScreenButton=0x7f05003e;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1111,17 +1111,17 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
-        public static final int mellowYellowButton=0x7f05003e;
+        public static final int mellowYellowButton=0x7f05003f;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int nothingRhymesWithThisOrangeButton=0x7f050041;
-        public static final int poppingPurpleButton=0x7f05003c;
+        public static final int nothingRhymesWithThisOrangeButton2=0x7f050044;
+        public static final int poppingPurpleButton2=0x7f050043;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
-        public static final int screenTwoIntroText=0x7f050042;
+        public static final int screenTwoIntroText=0x7f05003c;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1132,7 +1132,7 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
-        public static final int secondEpicButton=0x7f050044;
+        public static final int secondEpicButton=0x7f050041;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
@@ -1144,7 +1144,7 @@ containing a value of this type.
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
-        public static final int wickedGreenButton=0x7f05003f;
+        public static final int wickedGreenButton2=0x7f050042;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
