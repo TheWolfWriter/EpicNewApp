@@ -11,13 +11,10 @@ import android.widget.RelativeLayout;
 
 public class EpicActivity extends Activity
 {
-	public Button firstScreenButton;
-	public Button appFancyShmancyBlueButton;
-	public Button appMellowYellowButton;
-	public Button appBloodRedButton;
-	public Button appWickedGreenButton;
-	public Button appNothingRhymesWithThisOrangeButton;
-	public Button appPoppingPurpleButton;
+	private Button firstScreenButton;
+	private Button appFancyShmancyBlueButton;
+	private Button appMellowYellowButton;
+	private Button appBloodRedButton;
 	private RelativeLayout appLayout;
 	
 	@Override
@@ -26,12 +23,12 @@ public class EpicActivity extends Activity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_epic);
 		
+		firstScreenButton = (Button) findViewById(R.id.firstScreenButton);
 		appFancyShmancyBlueButton = (Button) findViewById(R.id.fancyShmancyBlueButton);
 		appMellowYellowButton = (Button) findViewById(R.id.mellowYellowButton);
 		appBloodRedButton = (Button) findViewById(R.id.bloodRedButton);
-		appWickedGreenButton = (Button) findViewById(R.id.wickedGreenButton2);
-		appNothingRhymesWithThisOrangeButton = (Button) findViewById(R.id.nothingRhymesWithThisOrangeButton2);
-		appPoppingPurpleButton = (Button) findViewById(R.id.poppingPurpleButton2);
+		
+		appLayout = (RelativeLayout) findViewById(R.id.Screen1Layout);
 		
 		setupListeners();
 	}
@@ -72,33 +69,6 @@ public class EpicActivity extends Activity
 			public void onClick(View v)
 			{
 				appLayout.setBackgroundResource(R.color.bloodRed);
-			}
-		});
-		
-		appWickedGreenButton.setOnClickListener(new View.OnClickListener()
-		{
-			@Override
-			public void onClick(View v)
-			{
-				appLayout.setBackgroundResource(R.color.wickedGreen);
-			}
-		});
-		
-		appNothingRhymesWithThisOrangeButton.setOnClickListener(new View.OnClickListener()
-		{
-			@Override
-			public void onClick(View v)
-			{
-				appLayout.setBackgroundResource(R.color.nothingRhymesWithThisOrange);
-			}
-		});
-		
-		appPoppingPurpleButton.setOnClickListener(new View.OnClickListener()
-		{
-			@Override
-			public void onClick(View v)
-			{
-				appLayout.setBackgroundResource(R.color.poppingPurple);
 			}
 		});
 	}

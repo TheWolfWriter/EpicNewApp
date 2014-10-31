@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ctec.epicnewapp.controller"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="2.1" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -25,6 +25,10 @@
         <activity
             android:name=".SecondEpicActivity"
             android:label="@string/title_activity_second_epic" >
+        </activity>
+        <activity
+            android:name=".ThirdEpicActivity"
+            android:label="@string/title_activity_third_epic" >
         </activity>
     </application>
 

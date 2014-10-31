@@ -14,5 +14,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="secondEpicButtonText">Click here to go back to screen 1!</string>
     <string name="screenTwoIntroTextText">Click the buttons to get &quot;secondary color&quot; epicness!</string>
+    <string name="title_activity_third_epic">ThirdEpicActivity</string>
 
 </resources>

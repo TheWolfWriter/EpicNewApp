@@ -1,18 +1,39 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Screen2Layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
     <Button
-        android:id="@+id/secondEpicButton"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/nothingRhymesWithThisOrangeButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/screenTwoIntroText"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="@string/secondEpicButtonText" />
+        android:layout_marginBottom="56dp"
+        android:text="@string/nothingRhymesWithThisOrangeText"
+        android:textColor="@color/nothingRhymesWithThisOrange" />
+
+    <Button
+        android:id="@+id/poppingPurpleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nothingRhymesWithThisOrangeButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/poppingPurpleText"
+        android:textColor="@color/poppingPurple" />
+
+    <Button
+        android:id="@+id/wickedGreenButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/poppingPurpleButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/wickedGreenText"
+        android:textColor="@color/wickedGreen" />
 
     <TextView
         android:id="@+id/screenTwoIntroText"
@@ -20,33 +41,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
         android:text="@string/screenTwoIntroTextText" />
 
     <Button
-        android:id="@+id/wickedGreenButton2"
+        android:id="@+id/secondEpicButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/secondEpicButton"
-        android:layout_below="@+id/secondEpicButton"
-        android:layout_marginTop="50dp"
-        android:text="@string/wickedGreenText" />
-
-    <Button
-        android:id="@+id/poppingPurpleButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/secondEpicButton"
-        android:layout_below="@+id/wickedGreenButton2"
-        android:layout_marginTop="43dp"
-        android:text="@string/poppingPurpleText" />
-
-    <Button
-        android:id="@+id/nothingRhymesWithThisOrangeButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/poppingPurpleButton2"
+        android:layout_below="@+id/screenTwoIntroText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:text="@string/nothingRhymesWithThisOrangeText" />
+        android:layout_marginTop="58dp"
+        android:text="@string/secondEpicButtonText" />
 
 </RelativeLayout>
